@@ -1,0 +1,156 @@
+.box {
+    background-color: darkgrey;
+    height: 300px;
+    width: 300px;
+    margin: auto auto;
+    margin-top: 200px;
+    border: 3px solid black;
+    border-radius: 50% 50% 20% 20%;
+    display: block;
+    z-index: 1000;
+
+}
+.a {
+    width: 600px;
+    height: 200px;
+    display: flex;
+    
+}
+.uho1 {
+    background-color: darkgray;
+    height: 400px;
+    width: 100px;
+    border: 3px solid black;
+    border-radius: 60%;
+    position: relative;
+    bottom: 250px;
+    z-index: -1 ;
+    
+    
+} 
+.uho2 {
+    background-color: darkgray;
+    height: 400px;
+    width: 100px;
+    border: 3px solid black;
+    border-radius: 60%;
+    margin-left: 87px;
+    position: relative;
+    bottom: 250px;
+    z-index: -1;
+}
+.b {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    position: relative;
+    bottom: 120px;
+    left: 50px;
+    justify-content: space-around;
+    
+    
+}
+.glas1 {
+    background-color: ivory;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: 3px solid black;
+    position: relative;
+    margin-bottom: 100px
+    z-index: ;
+}
+.glas2 {
+    background-color: ivory;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: 3px solid black;
+    position: relative;
+    margin-bottom: 100px
+    z-index: ;
+}
+.zrachok1 {
+    background-color: rgb(0, 0, 0);
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    border: 3px solid black;
+    position: relative;
+    justify-content: center;
+    left: 15px;
+    top: 18px;
+}
+.zrachok2 {
+    background-color: rgb(0, 0, 0);
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    border: 3px solid black;
+    position: relative;
+    justify-content: center;
+    left: 15px;
+    top: 18px;
+}
+.c {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    position: relative;
+}
+.nos {
+    background-color: rgb(236, 145, 214);
+    height: 20px;
+    width: 40px;
+    border-radius: 50% 50% 20% 20%;
+    border: 3px solid black;
+    position: relative;
+    display: flex;
+    bottom: 230px;
+    left: 125px;
+    z-index: 5;
+}
+.nozdra1 {
+    background-color: rgb(231, 223, 233);
+    height: 10px;
+    width: 20px;
+    border-radius:50% ;
+    border: 3px solid black;
+    position: relative; 
+    top: 6px;
+    left: 6px;
+}
+.d {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    position: relative;
+    bottom: 130px;
+    justify-content: center;
+    left: 100px;
+    z-index: 6;
+}
+.i1 {
+    background-color: rgb(245, 222, 146);
+    height: 30px;
+    width: 50px;
+    border-radius: 50% 0% 0% 50%;
+    border: 2px solid black;
+    position: relative;
+    bottom: 280px;
+    
+}
+.i2 {
+    background-color: rgb(245, 222, 146);
+    height: 30px;
+    width: 50px;
+    border-radius: 0% 50% 50% 0%;
+    border: 2px solid black;
+    position: relative;
+    bottom: 280px;
+    
+    
+}
+
+
+

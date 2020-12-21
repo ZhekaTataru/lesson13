@@ -7,8 +7,6 @@
     border: 3px solid black;
     border-radius: 50% 50% 20% 20%;
     display: block;
-    z-index: 1000;
-
 }
 .a {
     width: 600px;
@@ -25,9 +23,18 @@
     position: relative;
     bottom: 250px;
     z-index: -1 ;
-    
-    
 } 
+.u1 {
+    background-color: rgb(221, 220, 220);
+    height: 300px;
+    width: 80px;
+    border: 3px solid black;
+    border-radius: 60%;
+    position: relative;
+    top: 20px;
+    left: 5px;
+    z-index: 1 ;
+}
 .uho2 {
     background-color: darkgray;
     height: 400px;
@@ -38,6 +45,17 @@
     position: relative;
     bottom: 250px;
     z-index: -1;
+}
+.u2 {
+    background-color: rgb(221, 220, 220);
+    height: 300px;
+    width: 80px;
+    border: 3px solid black;
+    border-radius: 60%;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    z-index: 1 ;
 }
 .b {
     width: 200px;
@@ -55,42 +73,44 @@
     height: 50px;
     width: 50px;
     border-radius: 100%;
-    border: 3px solid black;
+    border: 2px solid black;
     position: relative;
     margin-bottom: 100px
-    z-index: ;
+    
 }
 .glas2 {
     background-color: ivory;
     height: 50px;
     width: 50px;
     border-radius: 100%;
-    border: 3px solid black;
+    border: 2px solid black;
     position: relative;
     margin-bottom: 100px
-    z-index: ;
+    
 }
 .zrachok1 {
     background-color: rgb(0, 0, 0);
-    height: 10px;
-    width: 10px;
-    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+    border-radius: 50% 0 50%;
     border: 3px solid black;
     position: relative;
     justify-content: center;
-    left: 15px;
-    top: 18px;
+    left: 13px;
+    top: 15px;
+    transform: rotate(130deg);
 }
 .zrachok2 {
     background-color: rgb(0, 0, 0);
-    height: 10px;
-    width: 10px;
-    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+    border-radius: 50% 0 50%;
     border: 3px solid black;
     position: relative;
     justify-content: center;
-    left: 15px;
-    top: 18px;
+    left: 13px;
+    top: 15px;
+    transform: rotate(130deg);
 }
 .c {
     width: 200px;
@@ -100,14 +120,14 @@
 }
 .nos {
     background-color: rgb(236, 145, 214);
-    height: 20px;
-    width: 40px;
+    height: 30px;
+    width: 60px;
     border-radius: 50% 50% 20% 20%;
-    border: 3px solid black;
+    border: 2px solid black;
     position: relative;
     display: flex;
     bottom: 230px;
-    left: 125px;
+    left: 120px;
     z-index: 5;
 }
 .nozdra1 {
@@ -115,42 +135,196 @@
     height: 10px;
     width: 20px;
     border-radius:50% ;
-    border: 3px solid black;
+    border: 2px solid black;
     position: relative; 
     top: 6px;
-    left: 6px;
+    left: 15px;
 }
 .d {
-    width: 100px;
-    height: 100px;
+    width: 600px;
+    height: 200px;
     display: flex;
     position: relative;
     bottom: 130px;
     justify-content: center;
-    left: 100px;
+    right: 152px;
     z-index: 6;
 }
 .i1 {
     background-color: rgb(245, 222, 146);
-    height: 30px;
-    width: 50px;
-    border-radius: 50% 0% 0% 50%;
+    height: 160px;
+    width: 400px;
+    border-radius: 100% /90% 90% 90%;
     border: 2px solid black;
     position: relative;
     bottom: 280px;
-    
+    right: 2px;
 }
-.i2 {
-    background-color: rgb(245, 222, 146);
-    height: 30px;
-    width: 50px;
-    border-radius: 0% 50% 50% 0%;
-    border: 2px solid black;
+.w1 {
+     position: relative;
+    background-color: rgb(0, 0, 0);
+    height: 3px;
+    width: 100px;
+    top: 30px;
+    right: 50px;
+    z-index: 8;
+    transform: rotate(20deg);
+}
+.w2 {
     position: relative;
-    bottom: 280px;
-    
-    
+   background-color: rgb(0, 0, 0);
+   height: 3px;
+   width: 100px;
+   top: 70px;
+   right: 50px;
+   z-index: 8;
+}
+.w3 {
+    position: relative;
+   background-color: rgb(0, 0, 0);
+   height: 3px;
+   width: 100px;
+   top: 100px;
+   right: 50px;
+   z-index: 8;
+   transform: rotate(170deg);
+}
+.w4 {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    height: 3px;
+    width: 100px;
+    top: 30px;
+    left: 350px;
+    z-index: 8;
+    transform: rotate(170deg);
+}
+.w5 {
+    position: relative;
+   background-color: rgb(0, 0, 0);
+   height: 3px;
+   width: 100px;
+   top: 70px;
+   left: 350px;
+   z-index: 8;
+}
+.w6 {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    height: 3px;
+    width: 100px;
+    top: 110px;
+    left: 350px;
+    z-index: 8;
+    transform: rotate(20deg);
 }
 
+.e{
+    background-color: rgb(31, 1, 5);
+    height: 55px;
+    width: 100px;
+    border-radius: 0% 0% 50% 50%;
+    border: 2px solid black;
+    position: relative;
+   
+    bottom: 570px;
+    left: 96px;
+    z-index: 8;
+}
+.f{
+    background-color: rgb(255, 255, 255);
+    width: 60px;
+    height: 40px;
+    border-radius: 0% 0% 30% 30%;
+    position: relative;
+    border: 2px solid black;
+    bottom: 629px;
+    left: 115px;
+    z-index: 10;
+}
+.f1{
+    position: absolute;
+    background-color: black;
+    height: 50px;
+    width: 2px;
+    left: 29px;
+}
+.tulob {
+    position: relative;
+    background-color: darkgrey;
+    height: 300px;
+    width: 800px;
+    margin: auto auto;
+    left: 200px;
+    bottom: 20px;
+    border: 3px solid black;
+    border-radius: 50% 50% 0% 0%;
+    display: block;
+}
+.lapa1 {
+    background-color: darkgray;
+    height: 100px;
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 50% 50% 0% 0%;
+    position: relative;
+    top: 250px;
+    right: 50px;
+    z-index: 7;
+}
+.q {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    height: 3px;
+    width: 100px;
+    top: 40px;
+    z-index: 8;
+}
+.q2 {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    height: 3px;
+    width: 100px;
+    top: 70px;
+    z-index: 8;
+}
+.lapa2 {
+    background-color: darkgray;
+    height: 100px;
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 50% 50% 0% 0%;
+    position: relative;
+    top: 150px;
+    left: 500px;
+}
+.q {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    height: 3px;
+    width: 100px;
+    top: 40px;
+    z-index: 8;
+}
+.q2 {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    height: 3px;
+    width: 100px;
+    top: 70px;
+    z-index: 8;
+}
+.hvost {
+    background-color:darkgrey;
+    height: 50px;
+    width: 100px;
+    border-radius: 50% 50% 20% 20%;
+    border: 2px solid black;
+    position: relative;
+    left: 690px;
+    bottom: 180px;
+    transform: rotate(30deg);
+    z-index: -1;
+}
 
 
